@@ -61,7 +61,7 @@ const Banner = () => {
             style={{ fontFamily: "inherit", fontWeight: 600 }}
             className="text-5xl w-[380px] font-serif z-30 text-white"
             duration={700}
-            direction="left"
+            direction="up"
           >
             <h1 className="">Hello, My Name is Aman Reja</h1>
           </Fade>
