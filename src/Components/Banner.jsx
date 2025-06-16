@@ -57,16 +57,16 @@ const Banner = () => {
           <p className="z-1 text-yellow-300">
             UI/UX Designer/FRONTEND/MERNSTACK
           </p>
-          <Fade duration={700} direction="left">
-            <h1
-              style={{ fontFamily: "inherit", fontWeight: 600 }}
-              className="text-5xl w-[380px] font-serif z-20 text-white"
-            >
-              Hello, My Name is Aman Reja
-            </h1>
+          <Fade
+            style={{ fontFamily: "inherit", fontWeight: 600 }}
+            className="text-5xl w-[380px] font-serif z-30 text-white"
+            duration={700}
+            direction="left"
+          >
+            <h1 className="">Hello, My Name is Aman Reja</h1>
           </Fade>
 
-          <p className="w-[350px] z-1 text-white font-thin">
+          <p className="w-[350px] z-10 text-white font-thin">
             Short text with details about you, what you do or your professional
             career. You can add more information on the about page.
           </p>
