@@ -157,7 +157,7 @@ const Features = () => {
           </div>
         </div>
         <div className="  h-full flex justify-center sm:w-[70%] w-full ">
-          <div className="h-[100%]   sm:w-[80%] w-full flex flex-wrap p-3  justify-center gap-[30px]">
+          <div className="h-[100%]   sm:w-[100%] w-full flex flex-wrap p-3  justify-center gap-[30px]">
             <div className="w-[280px] p-6 flex flex-col gap-[20px] rounded-[5px] shadow-xl h-[300px] bg-sky-300">
               <div className="bg-white rounded-full w-[60px] h-[60px] flex justify-center items-center">
                 <svg
