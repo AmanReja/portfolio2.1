@@ -162,7 +162,7 @@ const Banner = () => {
             //   transform: `rotate(${rotation}deg)`,
             //   transition: "transform 0.7s linear",
             // }}
-            className="absolute rotate-[6deg] sm:w-[900px] w-[100%] h-[400px] sm:h-[600px] sm:translate-x-[-30%] sm:translate-y-[0px] z-2 object-cover sm:rotate-[3deg]"
+            className="absolute rotate-[6deg] sm:w-[900px] w-[100%] h-[400px] sm:h-[600px] sm:translate-x-[-30%] sm:bottom-[30px] z-2 object-cover sm:rotate-[3deg]"
           />
           <img
             className="z-1 sm:w-[500px] w-[100px] hidden sm:flex h-[100px] sm:h-[600px] object-cover"
