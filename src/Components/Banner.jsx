@@ -40,7 +40,6 @@ const Banner = () => {
           <Fade
             delay={200} // Wait before starting
             duration={1000} // Animation duration
-            fraction={0.5}
           >
             <img
               className="floter sm:w-[120px] w-[50px] h-[50px] sm:h-[120px] relative left-[50px]"
@@ -58,14 +57,13 @@ const Banner = () => {
           <p className="z-1 text-yellow-300">
             UI/UX Designer/FRONTEND/MERNSTACK
           </p>
-
-          <Fade
-            duration={700}
-            direction="left"
-            style={{ fontFamily: "inherit", fontWeight: 600 }}
-            className="text-5xl w-[380px] font-serif z-1 text-white"
-          >
-            Hello, My Name is Aman Reja
+          <Fade duration={700} direction="left">
+            <h1
+              style={{ fontFamily: "inherit", fontWeight: 600 }}
+              className="text-5xl w-[380px] font-serif z-1 text-white"
+            >
+              Hello, My Name is Aman Reja
+            </h1>
           </Fade>
 
           <p className="w-[350px] z-1 text-white font-thin">
