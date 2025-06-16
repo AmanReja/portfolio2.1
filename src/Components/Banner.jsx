@@ -59,7 +59,7 @@ const Banner = () => {
           </p>
           <Fade
             style={{ fontFamily: "inherit", fontWeight: 600 }}
-            className="text-5xl w-[380px] font-serif z-30 text-white"
+            className="text-5xl w-[380px] font-serif z-10 text-white"
             duration={700}
             direction="up"
           >
