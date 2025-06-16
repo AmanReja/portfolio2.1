@@ -60,7 +60,7 @@ const Banner = () => {
           <Fade duration={700} direction="left">
             <h1
               style={{ fontFamily: "inherit", fontWeight: 600 }}
-              className="text-5xl w-[380px] font-serif z-1 text-white"
+              className="text-5xl w-[380px] font-serif z-20 text-white"
             >
               Hello, My Name is Aman Reja
             </h1>
