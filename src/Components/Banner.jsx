@@ -76,7 +76,7 @@ const Banner = () => {
               duration={1000}
               fraction={0.5}
               className="sm:w-[200px] text-center w-[180px]  hover:translate-y-[5px] duration-300 transition-all text-white px-[20px] py-[10px] rounded-[5px] bg-[#8965e0] z-1 shadow-2xl"
-              direction="down"
+              direction="up"
             >
               <button>
                 <a
@@ -162,7 +162,7 @@ const Banner = () => {
             //   transform: `rotate(${rotation}deg)`,
             //   transition: "transform 0.7s linear",
             // }}
-            className="absolute rotate-[6deg] sm:w-[900px] w-[100%] h-[400px] sm:h-[600px] sm:translate-x-[-30%] sm:translate-y-[32px] z-2 object-cover sm:rotate-[3deg]"
+            className="absolute rotate-[6deg] sm:w-[900px] w-[100%] h-[400px] sm:h-[600px] sm:translate-x-[-10%] sm:translate-y-[32px] z-2 object-cover sm:rotate-[3deg]"
           />
           <img
             className="z-1 sm:w-[500px] w-[100px] hidden sm:flex h-[100px] sm:h-[600px] object-cover"
