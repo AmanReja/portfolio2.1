@@ -10,7 +10,7 @@ const Features = () => {
     <>
       <div className=" w-full h-auto">
         <div className="w-full h-auto  flex justify-center items-center">
-          <div className="w-full h-auto flex justify-center items-center relative sm:bottom-0 bottom-[100px] sm:mb-[80px]">
+          <div className="w-full h-auto flex justify-center items-center sm:px-0 px-[10px] relative sm:bottom-0 bottom-[100px] sm:mb-[80px]">
             <img
               className="rounded-full z-20 absolute bottom-[300px] bg-white w-[180px] h-[180px] shadow-2xl object-cover"
               src={profile}
@@ -22,7 +22,7 @@ const Features = () => {
                 clipPath:
                   "polygon(50% 0%, 100% 0, 100% 35%, 99% 56%, 75% 78%, 50% 100%, 29% 81%, 0 55%, 0% 35%, 0 0)",
               }}
-              className="shadow-2xl bg-lime-300 h-[400px] rounded-[20px] w-[400px] flex flex-col items-center z-10 px-[10px] pt-[100px]"
+              className="shadow-2xl bg-lime-300 h-[400px] rounded-[20px] sm:w-[400px] w-[300px] flex flex-col items-center z-10 px-[10px] pt-[100px]"
             >
               <div className="w-full flex h-[80px] justify-around mt-[50px]">
                 <div className="w-[100px] flex items-center flex-col">
