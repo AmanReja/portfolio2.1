@@ -62,7 +62,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
 
 .cssbuttons-io::before {
   content: "";
-  background:red;
+  background:#ff3d00;
   width: 120%;
   left: -10%;
   transform: skew(30deg);
