@@ -154,7 +154,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="flex sm:bottom-[50px] bottom-[50px] flex-col opacity-[0.8] sm:w-[700px] bg-cover w-full h-[550px] px-[30px] gap-[35px] ml-[20px] mt-[20px] relative sm:left-[30%]">
+        <div className="flex sm:bottom-[40px] bottom-[50px] flex-col opacity-[0.8] sm:w-[700px] bg-cover w-full h-[550px] px-[30px] gap-[35px] ml-[20px] mt-[20px] relative sm:left-[30%]">
           <img
             src={Fb}
             alt="world"
