@@ -38,8 +38,8 @@ const Features = () => {
                   <p>Leet Resolved</p>
                 </div>
               </div>
-              <h1 className="text-[25px] font-bold">Collage</h1>
-              <h1>Barasat Government Collage</h1>
+              <h1 className="text-[25px] font-bold text-white">Collage</h1>
+              <h1 className="font-thin">Barasat Government Collage</h1>
               <a href="#contact">
                 <button class="cssbuttons-io">
                   <span>
