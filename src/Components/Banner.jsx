@@ -99,7 +99,7 @@ const Banner = () => {
                 onClick={() => {
                   Swal.fire({
                     title: "Thank You!",
-                    text: "Hope This Resume Will Touch Your Hart",
+                    text: "For downloading my CV",
                     icon: "success",
                   });
                 }}
