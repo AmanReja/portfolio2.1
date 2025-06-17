@@ -68,8 +68,9 @@ const Banner = () => {
           </Fade>
 
           <p className="w-[350px] z-10 text-white font-thin">
-            Short text with details about you, what you do or your professional
-            career. You can add more information on the about page.
+            Dynamic and detail-oriented MERN developer. Implementing
+            user-friendly web applications. Proficient in HTML, CSS, JavaScript,
+            and modern frameworks like React.
           </p>
           <div className="sm:w-[400px] w-[330px] sm:px-0 px-[2px]  sm:justify-items-normal justify-around flex gap-[10px]">
             <Fade
