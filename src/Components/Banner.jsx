@@ -70,7 +70,7 @@ const Banner = () => {
             Short text with details about you, what you do or your professional
             career. You can add more information on the about page.
           </p>
-          <div className="sm:w-[400px] w-[300px] sm:px-0 px-[10px]  sm:justify-items-normal justify-between flex gap-[10px]">
+          <div className="sm:w-[400px] w- sm:px-0 px-[2px]  sm:justify-items-normal justify-around flex gap-[10px]">
             <Fade
               delay={200}
               duration={1000}
