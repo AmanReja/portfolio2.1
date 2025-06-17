@@ -34,12 +34,12 @@ const Features = () => {
                   <p>Review</p>
                 </div>
                 <div className="w-[100px] flex items-center flex-col">
-                  <h1 className="text-[25px] text-white font-bold">80</h1>
-                  <p>Leet Resolved</p>
+                  <h1 className="text-[25px] text-white font-bold">4.0</h1>
+                  <p>Rating</p>
                 </div>
               </div>
-              <h1 className="text-[25px] font-bold text-white">Collage</h1>
-              <h1 className="font-thin">Barasat Government Collage</h1>
+              <h1 className="text-[25px] font-bold text-white">College</h1>
+              <h1 className="font-thin">Barasat Government College</h1>
               <a href="#contact">
                 <button class="cssbuttons-io">
                   <span>
