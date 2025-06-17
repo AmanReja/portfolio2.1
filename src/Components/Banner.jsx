@@ -115,7 +115,7 @@ const Banner = () => {
               </button>
             </Fade>
           </div>
-          <div className=" floter w-[380px] h-[90px]  sm:w-[400px] sm:h-[70px] z-1 bg-amber-300 p-2  text-white rounded-2xl flex flex-row gap-[10px] items-center justify-around">
+          <div className=" floter w-[300px] h-[90px] sm:px-0 px-[10px] sm:w-[400px] sm:h-[70px] z-1 bg-amber-300 p-2  text-white rounded-2xl flex flex-row gap-[10px] items-center justify-around">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
