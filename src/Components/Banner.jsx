@@ -10,6 +10,7 @@ import Figma from "../assets/figma.svg";
 import Nodemon from "../assets/nodemon.svg";
 import { Fade } from "react-awesome-reveal";
 import Swal from "sweetalert2";
+import Resume from "../assets/pdf/am.pdf";
 
 const Banner = () => {
   const [rotation, setRotation] = useState(0);
@@ -95,7 +96,9 @@ const Banner = () => {
               className="sm:w-[200px] text-center w-[180px]  hover:translate-y-[5px] duration-300 transition-all text-white px-[20px] py-[10px] rounded-[5px] bg-lime-400 z-1 shadow-2xl"
               direction="down"
             >
-              <button
+              <a
+                href={Resume}
+                download="Resume"
                 onClick={() => {
                   Swal.fire({
                     title: "Thank You!",
@@ -103,16 +106,11 @@ const Banner = () => {
                     icon: "success",
                   });
                 }}
+                style={{ fontFamily: "montserrat" }}
+                className="px-4 py-2 z-20  text-white rounded"
               >
-                <a
-                  style={{ fontFamily: "montserrat" }}
-                  className=""
-                  href="#project "
-                >
-                  {" "}
-                  Download CV
-                </a>
-              </button>
+                Download CV
+              </a>
             </Fade>
           </div>
           <div className=" floter w-[300px] h-[90px] sm:px-0 px-[10px] sm:w-[400px] sm:h-[70px] z-1 bg-amber-300 p-2  text-white rounded-2xl flex flex-row gap-[10px] items-center justify-around">
