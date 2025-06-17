@@ -65,7 +65,7 @@ const Features = () => {
         </div>
       </div>
       <section className=" sm:overflow-visible overflow-hidden sm:h-[640px] h-auto flex sm:flex-row flex-col  w-full">
-        <div className=" h-full   sm:w-[30%] w-full flex-col items-center sm:place-items-start text-center sm:text-left flex gap-[30px] p-10 pr-[30px]">
+        <div className=" h-full   sm:w-[30%] w-full flex-col items-center sm:place-items-start text-center sm:text-left flex gap-[30px] sm:p-10  sm:pr-[30px]">
           <div className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
