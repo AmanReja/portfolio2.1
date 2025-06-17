@@ -165,7 +165,7 @@ const Banner = () => {
             className="absolute rotate-[6deg] sm:w-[900px] w-[100%] h-[400px] sm:h-[600px] sm:translate-x-[-30%] sm:translate-y-[-70px] z-2 object-cover sm:rotate-[3deg]"
           />
           <img
-            className="z-1 sm:w-[500px] relative sm:bottom-0 bottom-[80px] w-[100px] hidden sm:flex h-[100px] sm:h-[600px] object-cover"
+            className="z-1 sm:w-[500px] relative sm:bottom-0 bottom-[100px] w-[100px] hidden sm:flex h-[100px] sm:h-[600px] object-cover"
             src={Cl}
             alt="cl"
           />
