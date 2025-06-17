@@ -10,7 +10,7 @@ const Features = () => {
     <>
       <div className=" w-full h-auto">
         <div className="w-full h-auto  flex justify-center items-center">
-          <div className="w-full h-auto flex justify-center items-center sm:px-0 px-[5px] relative sm:bottom-0 bottom-[100px] sm:mb-[80px]">
+          <div className="w-full h-auto flex justify-center items-center sm:px-0 px-[2px] relative sm:bottom-0 bottom-[100px] sm:mb-[80px]">
             <img
               className="rounded-full z-20 absolute bottom-[300px] bg-white w-[180px] h-[180px] shadow-2xl object-cover"
               src={profile}
@@ -38,6 +38,8 @@ const Features = () => {
                   <p>Leet Resolved</p>
                 </div>
               </div>
+              <h1 className="text-[25px] font-bold">Collage</h1>
+              <h1>Barasat Government Collage</h1>
               <a href="#contact">
                 <button class="cssbuttons-io">
                   <span>
