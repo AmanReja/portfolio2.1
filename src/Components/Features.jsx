@@ -257,8 +257,8 @@ const Features = () => {
             <div className="w-[280px] p-6 flex flex-col gap-[20px] h-[300px] rounded-[5px] sm:translate-x-[-100px] bg-gray-800">
               <div className="bg-white rounded-full w-[60px] h-[60px] flex justify-center items-center">
                 <svg
-                  width="40px"
-                  height="40px"
+                  width="38px"
+                  height="38px"
                   viewBox="0 0 256 256"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
