@@ -322,8 +322,7 @@ const Features = () => {
               </h1>
               <p className="font-thin text-white">
                 I deliver projects with rapid turnaround without compromising
-                quality. Leveraging modern tools and frameworks, I accelerate
-                the development process efficiently.
+                quality. Leveraging modern tools and frameworks.
               </p>
             </div>
             <div className="w-[280px] p-6 flex flex-col gap-[20px]  h-[300px] sm:translate-y-[-50px] sm:translate-x-[-50px] rounded-[5px] bg-orange-500">
