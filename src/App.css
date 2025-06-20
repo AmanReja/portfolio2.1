@@ -9,7 +9,7 @@
 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
   content: "";
 
-   background-image:linear-gradient(to right, #f5365c , #fb6340);
+   background-image:linear-gradient(to right, #111010 , #F09819);
   width: 100%;
   position: absolute;
   height: 700px;
