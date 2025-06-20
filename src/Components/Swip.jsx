@@ -31,7 +31,7 @@ const Swip = () => {
       image:
         "https://wallpapers.com/images/high/elon-musk-background-bqss7x66859br5gr.webp",
       description:
-        "Built a real-time tracking system using MERN & Socket.IO. The system is robust, scalable, and delivers exactly what we needed.",
+        "Built a real-time tracking system using MERN & Socket.IO. The system is robust, scalable, and delivers exactly what we needed.Highly recommend this developer.",
       color: "#f56b16",
     },
     {

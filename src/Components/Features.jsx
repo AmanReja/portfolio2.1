@@ -22,25 +22,27 @@ const Features = () => {
                 clipPath:
                   "polygon(50% 0%, 100% 0, 100% 35%, 99% 56%, 75% 78%, 50% 100%, 29% 81%, 0 55%, 0% 35%, 0 0)",
               }}
-              className="shadow-2xl bg-lime-300 h-[400px] rounded-[20px] sm:w-[400px] w-[300px] flex flex-col items-center z-10 px-[10px] pt-[100px]"
+              className="shadow-2xl bg-gradient-to-bl from-gray-900 to-violet-400 h-[400px] rounded-[20px] sm:w-[400px] w-[300px] flex flex-col items-center z-10 px-[10px] pt-[100px]"
             >
               <div className="w-full flex h-[80px] justify-around mt-[20px]">
                 <div className="w-[100px] flex items-center flex-col">
                   <h1 className="text-[25px] font-bold text-white">30</h1>
-                  <p>Git Repo</p>
+                  <p className="text-white">Git Repo</p>
                 </div>
                 <div className="w-[100px] flex items-center flex-col">
                   <h1 className="text-[25px] font-bold text-white">12</h1>
-                  <p>Review</p>
+                  <p className="text-white">Review</p>
                 </div>
                 <div className="w-[100px] flex items-center flex-col">
                   <h1 className="text-[25px] text-white font-bold">4.0</h1>
-                  <p>Rating</p>
+                  <p className="text-white">Rating</p>
                 </div>
               </div>
               <div className="flex flex-col relative bottom-6 items-center justify-center">
                 <h1 className="text-[25px] font-bold text-white">College</h1>
-                <h1 className="font-thin">Barasat Government College</h1>
+                <h1 className="font-thin text-white">
+                  Barasat Government College
+                </h1>
                 <a href="#contact">
                   <button class="cssbuttons-io">
                     <span>
@@ -149,9 +151,9 @@ const Features = () => {
                 y="0"
                 version="1.1"
                 viewBox="0 0 512 512"
-                fill="#5af72f"
               >
                 <path
+                  fill="#000"
                   id="Icon_6_"
                   d="M358.856 32H153.143C130.512 32 112 50.326 112 72.728v366.545C112 461.674 130.512 480 153.143 480h205.713C381.488 480 400 461.674 400 439.272V72.728C400 50.326 381.488 32 358.856 32zM364 400H148V112h216v288z"
                 ></path>
@@ -162,7 +164,7 @@ const Features = () => {
         </div>
         <div className="  h-full flex justify-center sm:w-[70%] w-full ">
           <div className="h-[100%]  sm:w-[100%] w-full flex flex-wrap p-3  justify-center gap-[30px]">
-            <div className="w-[280px] sky-dv p-6 flex flex-col gap-[20px] rounded-[5px] shadow-xl h-[300px] bg-sky-400">
+            <div className="w-[280px] sky-dv p-6 flex flex-col gap-[20px] rounded-[5px] shadow-xl h-[300px] bg-fuchsia-600">
               <div className="bg-white rounded-full w-[60px] h-[60px] flex justify-center items-center">
                 <svg
                   fill="#34d2eb"

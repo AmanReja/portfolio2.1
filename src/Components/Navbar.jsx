@@ -86,24 +86,24 @@ function Navbar({ themeHandel }) {
         >
           <div
             onClick={handelopen}
-            className={`bg-lime-400 py-[3px] px-[2px] rounded flex sm:hidden flex-col  h-[30px] transition-all 
+            className={`py-[3px] px-[2px] rounded flex sm:hidden flex-col  h-[30px] transition-all 
              gap[9px] left-[-134px] relative items-center justify-between`}
           >
             <div
               className={
                 open
-                  ? "bg-white w-[30px] h-[2px]  duration-300"
-                  : "bg-white w-[30px] h-[2px] rotate-45 relative top-[15px]  duration-300"
+                  ? "bg-black w-[30px] h-[2px]  duration-300"
+                  : "bg-black w-[30px] h-[2px] rotate-45 relative top-[15px]  duration-300"
               }
             ></div>
             <div
-              className={open ? "bg-white w-[30px] h-[2px]" : "invisible"}
+              className={open ? "bg-black w-[30px] h-[2px]" : "invisible"}
             ></div>
             <div
               className={
                 open
-                  ? "bg-white w-[30px] h-[2px]  duration-300"
-                  : "bg-white w-[30px] h-[2px] -rotate-45 relative bottom-[15px] duration-300"
+                  ? "bg-black w-[30px] h-[2px]  duration-300"
+                  : "bg-black w-[30px] h-[2px] -rotate-45 relative bottom-[15px] duration-300"
               }
             ></div>
           </div>
