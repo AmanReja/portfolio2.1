@@ -151,9 +151,9 @@ const Features = () => {
                 y="0"
                 version="1.1"
                 viewBox="0 0 512 512"
+                fill="#5af72f"
               >
                 <path
-                  fill="#000"
                   id="Icon_6_"
                   d="M358.856 32H153.143C130.512 32 112 50.326 112 72.728v366.545C112 461.674 130.512 480 153.143 480h205.713C381.488 480 400 461.674 400 439.272V72.728C400 50.326 381.488 32 358.856 32zM364 400H148V112h216v288z"
                 ></path>
@@ -167,7 +167,7 @@ const Features = () => {
             <div className="w-[280px] sky-dv p-6 flex flex-col gap-[20px] rounded-[5px] shadow-xl h-[300px] bg-fuchsia-600">
               <div className="bg-white rounded-full w-[60px] h-[60px] flex justify-center items-center">
                 <svg
-                  fill="#34d2eb"
+                  fill="fuchsia"
                   height="40px"
                   width="40px"
                   version="1.1"
