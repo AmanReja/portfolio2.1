@@ -77,7 +77,7 @@ const Banner = () => {
             user-friendly web applications. Proficient in HTML, CSS, JavaScript,
             and modern frameworks like React.
           </p>
-          <div className="sm:w-[400px] w-[330px] sm:px-0 px-[2px]  sm:justify-items-normal justify-around flex gap-[10px]">
+          <div className="sm:w-[400px] w-[350px] sm:px-0 px-[5px] sm:h-[80px] h-[60px] sm:justify-items-normal items-center justify-around flex gap-[5px]">
             <Fade
               delay={200}
               duration={1000}
@@ -114,7 +114,7 @@ const Banner = () => {
                     sound();
                 }}
                 style={{ fontFamily: "montserrat" }}
-                className="px-4 py-2 z-20  text-white rounded"
+                className=" py-2 z-20  text-white rounded"
               >
                 Download CV
               </a>
