@@ -10,7 +10,7 @@ import Figma from "../assets/figma.svg";
 import Nodemon from "../assets/nodemon.svg";
 import { Fade } from "react-awesome-reveal";
 import Swal from "sweetalert2";
-import Resume from "../assets/pdf/Aman.pdf";
+import Resume from "../assets/pdf/Resume.pdf";
 import Noti from "../assets/music/noti.wav";
 
 const Banner = () => {
