@@ -22,7 +22,7 @@ const Features = () => {
                 clipPath:
                   "polygon(50% 0%, 100% 0, 100% 35%, 99% 56%, 75% 78%, 50% 100%, 29% 81%, 0 55%, 0% 35%, 0 0)",
               }}
-              className="shadow-2xl bg-gradient-to-bl from-gray-900 to-violet-400 h-[400px] rounded-[20px] sm:w-[400px] w-[300px] flex flex-col items-center z-10 px-[10px] pt-[100px]"
+              className="shadow-2xl bg-gradient-to-bl from-gray-900 to-yellow-400 h-[400px] rounded-[20px] sm:w-[400px] w-[300px] flex flex-col items-center z-10 px-[10px] pt-[100px]"
             >
               <div className="w-full flex h-[80px] justify-around mt-[20px]">
                 <div className="w-[100px] flex items-center flex-col">

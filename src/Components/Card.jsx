@@ -14,6 +14,9 @@ import blog from "../assets/images/Project images/blog.png";
 
 import travel from "../assets/images/Project images/travel.png";
 import task from "../assets/images/Project images/task.png";
+import gym from "../assets/images/Project images/gym.png";
+import jew from "../assets/images/Project images/jew.png";
+import spa from "../assets/images/Project images/spa.png";
 import { Fade } from "react-awesome-reveal";
 
 const Card = () => {
@@ -38,13 +41,6 @@ const Card = () => {
       wlink: "https://travel-frontend-delta-steel.vercel.app/",
       islive: "live",
       dir: "right",
-    },
-    {
-      name: "Gaming website",
-      img: game,
-      wlink: "https://gaming-website-one.vercel.app/",
-      islive: "live",
-      dir: "left",
     },
 
     {
@@ -81,6 +77,29 @@ const Card = () => {
       img: task,
       wlink: "https://task-frontend-three-liard.vercel.app/",
       islive: "live",
+      dir: "left",
+    },
+
+    {
+      name: "Gym website(CMS)",
+      img: gym,
+      wlink: "#",
+      islive: "not hosted",
+      dir: "left",
+    },
+
+    {
+      name: "jewlary website(CMS)",
+      img: jew,
+      wlink: "#",
+      islive: "not hosted",
+      dir: "left",
+    },
+    {
+      name: "Spa(CMS)",
+      img: spa,
+      wlink: "#",
+      islive: "not hosted",
       dir: "left",
     },
     // {
