@@ -17,6 +17,7 @@ import task from "../assets/images/Project images/task.png";
 import gym from "../assets/images/Project images/gym.png";
 import jew from "../assets/images/Project images/jew.png";
 import spa from "../assets/images/Project images/spa.png";
+import japp from "../assets/images/Project images/japp.png";
 import { Fade } from "react-awesome-reveal";
 
 const Card = () => {
@@ -89,7 +90,7 @@ const Card = () => {
     },
 
     {
-      name: "jewlary website(CMS)",
+      name: "jewelary website(CMS)",
       img: jew,
       wlink: "#",
       islive: "not hosted",
@@ -100,7 +101,14 @@ const Card = () => {
       img: spa,
       wlink: "#",
       islive: "not hosted",
-      dir: "left",
+      dir: "up",
+    },
+    {
+      name: "jewelary App",
+      img: japp,
+      wlink: "#",
+      islive: "not hosted",
+      dir: "right",
     },
     // {
     //   name: "jewelary App",
