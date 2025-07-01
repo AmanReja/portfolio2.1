@@ -10,7 +10,8 @@ import cal from "../assets/images/Project images/cal.png";
 import text from "../assets/images/Project images/text.png";
 import wal from "../assets/images/Project images/wal.png";
 import jel from "../assets/images/Project images/jewl.png";
-import blog from "../assets/images/Project images/blog.png";
+
+import blog from "../assets/images/Project images/post.png";
 
 import travel from "../assets/images/Project images/travel.png";
 import task from "../assets/images/Project images/task.png";
@@ -28,6 +29,13 @@ const Card = () => {
       wlink: "https://front-book-mu.vercel.app/",
       islive: "live",
       dir: "left",
+    },
+    {
+      name: "Blog post(Redux+Next.js)",
+      img: blog,
+      wlink: "https://mini-blog-frontend-96lc.vercel.app/",
+      islive: "live",
+      dir: "down",
     },
     {
       name: "Wallpaper Downloader",
@@ -125,13 +133,6 @@ const Card = () => {
     //   img: Mark,
     //   wlink: "",
     // },
-    {
-      name: "Blog post(Redux)",
-      img: blog,
-      wlink: "",
-      islive: "not hosted",
-      dir: "down",
-    },
   ];
 
   return (
