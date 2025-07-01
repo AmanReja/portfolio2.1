@@ -89,9 +89,15 @@ const Features = () => {
               Awsome features
             </h1>
             <p style={{ fontFamily: "" }} className="font-thin text-[19px]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              voluptas exercitationem dolor autem ut minus assumenda debitis
-              laboriosam fuga minima expedita culpa?
+              Awesome features designed to elevate your experience to the next
+              level. From lightning-fast performance and intuitive user
+              interfaces to advanced security protocols and seamless
+              integrations, every detail is built with excellence in mind. Enjoy
+              real-time collaboration, AI-powered tools, and personalized
+              settings that adapt to your workflow. Whether you're managing a
+              project, creating content, or connecting with your team, our
+              features ensure everything runs smoothly, efficiently, and with
+              style.
             </p>
           </div>
           <div className="sm:w-[400px] w-full justify-center sm:items-start items-center  flex  flex-col gap-[15px]">
