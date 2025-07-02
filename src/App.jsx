@@ -15,7 +15,7 @@ const App = () => {
       <Navbar></Navbar>
       <Banner></Banner>
 
-      <Features></Features>
+      {/* <Features></Features> */}
 
       <Skills></Skills>
       <Card></Card>

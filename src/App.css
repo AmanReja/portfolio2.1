@@ -2,7 +2,7 @@
   overflow-x: hidden;
 } */
 
-.gredient{
+/* .gredient{
   background-image:linear-gradient(to right, #111010 , #F09819);
 }
 .container::after{
@@ -16,8 +16,10 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
   opacity: 0.9;
   position: absolute;
   bottom: 50px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-}
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+
 
 
 /* From Uiverse.io by adamgiebl */ 

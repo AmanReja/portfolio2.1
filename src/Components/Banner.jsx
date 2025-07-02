@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../assets/images/image.png";
-import Cl from "../assets/images/cl.png";
-import World from "../assets/images/w.png";
+
 import "../App.css";
 import Dev from "../assets/dev.svg";
 import Fb from "../assets/images/fb.png";
@@ -12,6 +10,10 @@ import { Fade } from "react-awesome-reveal";
 import Swal from "sweetalert2";
 import Resume from "../assets/pdf/Resume.pdf";
 import Noti from "../assets/music/noti.wav";
+import check from "../assets/images/banner/check.svg";
+import dev from "../assets/images/banner/dev.png";
+import ball from "../assets/images/banner/ball.svg";
+import bax from "../assets/images/banner/bax1.svg";
 
 const Banner = () => {
   const [rotation, setRotation] = useState(0);
@@ -34,13 +36,9 @@ const Banner = () => {
 
   return (
     <>
-      <br />
-      <br />
-      <br />
-
       <div
         id="home"
-        className="w-full h-[1050px] sm:h-[600px] flex sm:flex-row flex-col container "
+        className="w-full  h-auto sm:h-[600px] flex sm:flex-row flex-col container   mt-[80px] "
       >
         <div className="absolute  top-[120px]  left-[30%] z-1">
           <Fade
@@ -59,20 +57,24 @@ const Banner = () => {
             />
           </Fade>
         </div>
-        <div className="sm:pt-0 pt-[140px]  flex flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] w-full h-[550px] px-[30px] gap-[55px] sm:ml-[20px] m-0 mt-[20px]">
-          <p className="z-1 text-yellow-300">
-            UI/UX Designer/FRONTEND/MERNSTACK
-          </p>
+        <div className="flex flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] w-full h-[550px] px-[30px] gap-[55px] sm:ml-[20px] m-0 mt-[20px]">
+          <div className="flex items-center justify-center gap-[5px]">
+            <img src={check} alt="" />
+            <p className="z-1 text-lime-600">
+              UI/UX Designer/FRONTEND/MERNSTACK
+            </p>
+          </div>
+
           <Fade
             style={{ fontFamily: "inherit", fontWeight: 600 }}
             className="text-5xl w-[380px] font-serif z-10 text-white"
             duration={700}
             direction="up"
           >
-            <h1 className="">Hello, My Name is Aman Reja</h1>
+            <h1 className="text-black">Hello, My Name is Aman Reja</h1>
           </Fade>
 
-          <p className="w-[350px] z-10 text-white font-thin">
+          <p className="w-[350px] z-10 text-black font-thin">
             Dynamic and detail-oriented MERN developer. Implementing
             user-friendly web applications. Proficient in HTML, CSS, JavaScript,
             and modern frameworks like React.
@@ -82,13 +84,13 @@ const Banner = () => {
               delay={200}
               duration={1000}
               fraction={0.5}
-              className="sm:w-[200px] text-center w-[180px]  hover:translate-y-[5px] duration-300 transition-all text-white px-[20px] py-[10px] rounded-[5px] bg-[#8965e0] z-1 shadow-2xl"
+              className="sm:w-[200px] text-center w-[180px]  hover:translate-y-[5px] duration-300 transition-all text-black px-[20px] py-[10px] rounded-[5px] bg-[#8965e0] z-1 shadow-2xl"
               direction="up"
             >
               <button>
                 <a
                   target="_blank"
-                  className=""
+                  className="text-white"
                   href="https://www.linkedin.com/in/aman-reja-85527b1a1/ "
                 >
                   {" "}
@@ -168,22 +170,19 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="flex sm:bottom-[-28px] bottom-[50px] flex-col opacity-[0.8] sm:w-[700px] bg-cover w-full h-[550px] px-[30px] gap-[35px] ml-[20px] mt-[20px] relative sm:left-[30%]">
-          <img
-            src={Fb}
-            alt="world"
-            // style={{
-            //   transform: `rotate(${rotation}deg)`,
-            //   transition: "transform 0.7s linear",
-            // }}
-            className="absolute rotate-[6deg] sm:w-[900px] w-[100%] h-[400px] sm:h-[600px] sm:translate-x-[-30%] sm:translate-y-[-70px] z-2 object-cover sm:rotate-[3deg]"
-          />
-          <img
-            style={{ position: "relative", bottom: 100 }}
-            className="z-1 sm:w-[500px] relative sm:bottom-0 bottom-[100px] w-[100px] hidden sm:flex h-[100px] sm:h-[580px] object-cover"
-            src={Cl}
-            alt="cl"
-          />
+        <div className=" w-full justify-end flex items-center ">
+          <div className="flex flex-col items-center  h-[400px] justify-center">
+            <img
+              className="sm:w-[300px] lg:w-[280px] sm:h-[300px] object-cover relative top-[180px]"
+              src={dev}
+              alt=""
+            />
+            <img
+              className="sm:w-[600px] lg:w-[630px] w-[680px] z-20 overflow-visible h-[400px] object-cover"
+              src={bax}
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>
