@@ -39,7 +39,7 @@ const Banner = () => {
     <>
       <div
         id="home"
-        className="w-full  h-auto sm:h-[600px] flex sm:flex-row flex-col container   mt-[80px] "
+        className="w-full  h-auto sm:h-[600px] flex sm:flex-row flex-col container px-[80px]   mt-[80px] "
       >
         <div className="absolute  top-[120px]  left-[30%] z-1">
           <Fade
@@ -58,7 +58,7 @@ const Banner = () => {
             />
           </Fade>
         </div>
-        <div className="flex sm:mt-0  flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] w-full h-[550px] px-[10px] gap-[55px] sm:ml-[20px] m-0 mt-[180px]">
+        <div className="flex sm:mt-0  flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] md:w-full w-full h-[550px] px-[10px] gap-[55px] sm:ml-[20px] m-0 mt-[180px]">
           <div className=" sm:flex hidden  items-center text-left gap-[5px] relative sm:bottom-[-10px] bottom-[30px] ">
             <img src={check} alt="" />
             <p className="z-1 text-lime-600 relative ">
