@@ -222,7 +222,11 @@ const Banner = () => {
             </a>
           </div>
           <div className=" lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={rob} alt="mockup" />
+            <img
+              className="sm:w-[200px] lg:w-full lg:h-full object-cover sm:h-[200px]"
+              src={rob}
+              alt="mockup"
+            />
           </div>
         </div>
       </section>
