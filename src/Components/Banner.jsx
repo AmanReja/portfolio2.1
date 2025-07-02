@@ -39,7 +39,7 @@ const Banner = () => {
     <>
       <div
         id="home"
-        className="w-full  h-auto sm:h-[600px] flex sm:flex-row flex-col container px-[80px]   mt-[80px] "
+        className="w-full  h-auto sm:h-[600px] flex sm:flex-row flex-col container px-[20px]   mt-[80px] "
       >
         <div className="absolute  top-[120px]  left-[30%] z-1">
           <Fade
