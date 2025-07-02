@@ -59,7 +59,7 @@ const Banner = () => {
           </Fade>
         </div>
         <div className="flex flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] w-full h-[550px] px-[10px] gap-[55px] sm:ml-[20px] m-0 mt-[20px]">
-          <div className="flex items-center text-left gap-[5px] ">
+          <div className="flex items-center text-left gap-[5px] relative sm:bottom-[-10px] bottom-[30px] ">
             <img src={check} alt="" />
             <p className="z-1 text-lime-600 relative ">
               UI/UX Designer/FRONTEND/MERNSTACK
