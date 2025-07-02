@@ -47,21 +47,21 @@ const Banner = () => {
             duration={1000} // Animation duration
           >
             <img
-              className="floter sm:w-[120px] w-[50px] h-[50px] sm:h-[120px] relative left-[50px]"
+              className="floter sm:w-[120px] w-[40px] h-[40px] sm:h-[120px] relative left-[50px]"
               src={Figma}
               alt=""
             />
             <img
-              className=" floter sm:w-[100px] sm:h-[100px] w-[60px] h-[60px]"
+              className=" floter sm:w-[100px] sm:h-[100px] w-[40px] h-[40px]"
               src={Nodemon}
               alt=""
             />
           </Fade>
         </div>
-        <div className="flex flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] w-full h-[550px] px-[30px] gap-[55px] sm:ml-[20px] m-0 mt-[20px]">
-          <div className="flex items-center justify-center gap-[5px]">
+        <div className="flex flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] w-full h-[550px] px-[10px] gap-[55px] sm:ml-[20px] m-0 mt-[20px]">
+          <div className="flex items-center text-left gap-[5px] ">
             <img src={check} alt="" />
-            <p className="z-1 text-lime-600">
+            <p className="z-1 text-lime-600 relative ">
               UI/UX Designer/FRONTEND/MERNSTACK
             </p>
           </div>
