@@ -81,7 +81,7 @@ function Navbar({ themeHandel }) {
         </button>
         <div
           className={
-            "max-w-[334px] sm:max-w-screen-xl flex flex-wrap rounded-[10px] items-center w-[500px] bg-white  justify-center mx-auto p-4 transition-all duration-300"
+            "max-w-[334px] sm:max-w-screen-xl  flex flex-wrap rounded-[10px] items-center w-[500px] bg-white  justify-center mx-auto p-4 transition-all duration-300"
           }
         >
           <div

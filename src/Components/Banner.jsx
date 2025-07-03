@@ -39,7 +39,7 @@ const Banner = () => {
     <>
       <div
         id="home"
-        className="w-full  h-auto sm:h-[600px] flex sm:flex-row flex-col container px-[20px]   mt-[80px] "
+        className="w-full  h-auto sm:h-[600px] flex sm:flex-row flex-col container px-[20px] md:flex lg:flex lg:flex-row md:h-auto md:w-full justify-center md:flex-col md:items-center   mt-[80px] "
       >
         <div className="absolute  top-[120px]  left-[30%] z-1">
           <Fade
@@ -47,19 +47,19 @@ const Banner = () => {
             duration={1000} // Animation duration
           >
             <img
-              className="floter sm:w-[120px] w-[80px] h-[80px] sm:h-[120px] relative left-[50px]"
+              className="floter sm:w-[120px] w-[80px] md:left-[300px] h-[80px] sm:h-[120px] relative left-[50px]"
               src={Figma}
               alt=""
             />
             <img
-              className=" floter sm:w-[100px] sm:h-[100px] w-[50px] h-[50px]"
+              className=" floter sm:w-[100px] sm:h-[100px] relative md:left-[150px] w-[50px] h-[50px]"
               src={Nodemon}
               alt=""
             />
           </Fade>
         </div>
-        <div className="flex sm:mt-0  flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] md:w-full w-full h-[550px] px-[10px] gap-[55px] sm:ml-[20px] m-0 mt-[180px]">
-          <div className=" sm:flex hidden  items-center text-left gap-[5px] relative sm:bottom-[-10px] bottom-[30px] ">
+        <div className="flex sm:mt-0  flex-col text-center sm:items-start items-center sm:text-left sm:w-[450px] md:w-full md:justify-center w-full h-[550px] px-[10px] gap-[55px] sm:ml-[20px] m-0 mt-[180px] ">
+          <div className=" sm:flex hidden  items-center text-left gap-[5px] relative sm:bottom-[-10px] bottom-[30px] md:hidden ">
             <img src={check} alt="" />
             <p className="z-1 text-lime-600 relative ">
               UI/UX Designer/FRONTEND/MERNSTACK
@@ -171,7 +171,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className=" w-full justify-end flex items-center ">
+        <div className=" w-full justify-end flex md:flex  items-center  ">
           <div className="flex flex-col items-center  h-[400px] justify-center">
             <img
               className="sm:w-[300px] lg:w-[280px] sm:h-[300px] object-cover relative top-[180px]"
@@ -188,42 +188,45 @@ const Banner = () => {
       </div>
       <section className="bg-white">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div className="mr-auto place-self-center lg:col-span-7">
+          <div className="mr-auto place-self-center lg:col-span-7  md:w-full md:text-center md:flex md:justify-center md:flex-col md:items-center lg:text-left lg:justify-items-start lg:items-start">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-black">
               Awesome features designed to elevate your experience.
             </h1>
-            <p className="max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            <p className="max-w-2xl   mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               Enjoy real-time collaboration, AI-powered tools, and personalized
               settings that adapt to your workflow.
             </p>
-            <a
-              href="#"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-            >
-              Get started
-              <svg
-                className="w-5 h-5 ml-2 -mr-1"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+            <div className="flex">
+              {" "}
+              <a
+                href="#"
+                className=" border hover:bg-red-500 hover:text-white duration-300 inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black border rounded-lg bg-lime-300"
-            >
-              Hire Me
-            </a>
+                Get started
+                <svg
+                  className="w-5 h-5 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black border rounded-lg bg-lime-300"
+              >
+                Hire Me
+              </a>
+            </div>
           </div>
           <div className=" lg:mt-0 lg:col-span-5 lg:flex">
             <img
-              className="sm:w-[200px] lg:w-full lg:h-full object-cover sm:h-[200px]"
+              className="sm:w-[200px] lg:w-full lg:h-full object-cover md:h-full md:w-full sm:h-[200px]"
               src={rob}
               alt="mockup"
             />
