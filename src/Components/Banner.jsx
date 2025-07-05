@@ -15,7 +15,7 @@ import dev from "../assets/images/banner/dev.png";
 import ball from "../assets/images/banner/ball.svg";
 import bax from "../assets/images/banner/bax1.svg";
 import rob from "../assets/images/banner/rob.png";
-
+import min from "../assets/video/min.mp4";
 const Banner = () => {
   const [rotation, setRotation] = useState(0);
 
@@ -230,6 +230,33 @@ const Banner = () => {
               src={rob}
               alt="mockup"
             />
+          </div>
+        </div>
+      </section>
+      <section className="bg-white">
+        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div className="mr-auto place-self-center lg:col-span-7  md:w-full md:text-center md:flex md:justify-center md:flex-col md:items-center lg:text-left lg:justify-items-start lg:items-start">
+            <h1 className="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-3xl text-black">
+              <span className="text-amber-600">Animated World</span> Breakdown –
+              3D Fan Art
+            </h1>
+            <p className="max-w-2xl   mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+              A stylized destruction animation inspired by Minecraft, created
+              entirely in Blender. This fan art project showcases dynamic
+              physics simulation, camera animation, and lighting techniques to
+              bring a voxel-style house collapse to life.
+            </p>
+          </div>
+          <div className=" lg:mt-0 lg:col-span-5  lg:flex">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-[550px] md:w-full rounded-2xl"
+            >
+              <source src={min} type="video/mp4" />
+            </video>
           </div>
         </div>
       </section>
