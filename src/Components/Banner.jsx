@@ -259,7 +259,9 @@ const Banner = () => {
               <source src={min} type="video/mp4" />
             </video>
           </div>
-          <div className=" lg:mt-0 lg:col-span-5  lg:flex">
+        </div>
+        <div className="flex justify-center items-center w-full px-2">
+          <div className=" w-[700px] lg:mt-2 lg:col-span-5  lg:flex">
             <video
               autoPlay
               loop
