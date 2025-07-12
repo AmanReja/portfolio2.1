@@ -16,6 +16,7 @@ import ball from "../assets/images/banner/ball.svg";
 import bax from "../assets/images/banner/bax1.svg";
 import rob from "../assets/images/banner/rob.png";
 import min from "../assets/video/min.mp4";
+import flag from "../assets/video/flag.mp4";
 const Banner = () => {
   const [rotation, setRotation] = useState(0);
 
@@ -256,6 +257,17 @@ const Banner = () => {
               className="w-[550px] md:w-full rounded-2xl"
             >
               <source src={min} type="video/mp4" />
+            </video>
+          </div>
+          <div className=" lg:mt-0 lg:col-span-5  lg:flex">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-[550px] md:w-full rounded-2xl"
+            >
+              <source src={flag} type="video/mp4" />
             </video>
           </div>
         </div>
