@@ -260,7 +260,7 @@ const Banner = () => {
             </video>
           </div>
         </div>
-        <div className="flex justify-center items-center w-full px-2">
+        {/* <div className="flex justify-center items-center w-full px-2">
           <div className=" w-[700px] lg:mt-2 lg:col-span-5  lg:flex">
             <video
               autoPlay
@@ -272,7 +272,7 @@ const Banner = () => {
               <source src={flag} type="video/mp4" />
             </video>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );
