@@ -81,9 +81,9 @@ const Banner = () => {
           </Fade>
 
           <p className="w-[350px] z-10 text-black font-thin">
-            Dynamic and detail-oriented MERN developer. Implementing
-            user-friendly web applications. Proficient in HTML, CSS, JavaScript,
-            and modern frameworks like React.
+            Dynamic and detail-oriented MERN , php and React Native developer.
+            Implementing user-friendly web applications. Proficient in HTML,
+            CSS, JavaScript, and modern frameworks like React.
           </p>
           <div className="sm:w-[400px] w-[350px] sm:px-0 px-[5px] sm:h-[80px] h-[60px] sm:justify-items-normal items-center justify-around flex gap-[5px]">
             <Fade

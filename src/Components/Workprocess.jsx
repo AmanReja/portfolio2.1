@@ -1,4 +1,4 @@
-import { Code, Database, Layout, Rocket } from "lucide-react";
+import { Code, Database, Layout, Rocket, Smartphone } from "lucide-react";
 
 const steps = [
   {
@@ -29,48 +29,59 @@ const steps = [
     icon: <Rocket className="w-6 h-6" />,
     gradient: "from-purple-500 to-fuchsia-400",
   },
+  {
+    id: 5,
+    title: "App Development",
+    desc: "Creating cross-platform mobile applications using React Native for both Android and iOS with smooth UI/UX.",
+    icon: <Smartphone className="w-6 h-6" />, // You can also use <Phone /> or <Tablet /> from lucide-react
+    gradient: "from-orange-500 to-amber-400",
+  },
 ];
 
 export default function WorkProcess() {
   return (
-    <section className="py-16 px-6 lg:px-20 bg-white">
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
-        <div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Work Process
-          </h2>
-          <p className="text-gray-600 mb-3">
-            I build scalable, user-friendly applications from front-end to
-            back-end. With expertise in modern frameworks and databases, I turn
-            ideas into fast, secure, and reliable digital solutions.
-          </p>
-          <p className="text-gray-600">
-            Passionate about crafting seamless web experiences, I work across
-            both front-end and back-end to deliver complete solutions. From
-            intuitive user interfaces to robust server logic, I ensure every
-            project is built with performance, security, and scalability in
-            mind.
-          </p>
-        </div>
+    <section className="py-20 px-6 lg:px-20 bg-white">
+      <div className="max-w-6xl mx-auto text-center mb-12">
+        <h2 className="text-4xl font-extrabold text-gray-900 mb-4">
+          🚀 Work Process
+        </h2>
+        <p className="text-gray-600 max-w-2xl mx-auto">
+          A streamlined journey from idea to deployment — covering frontend,
+          backend, databases, mobile apps, and scaling solutions.
+        </p>
+      </div>
 
-        <div className="grid grid-cols-2 gap-6">
-          {steps.map((step) => (
+      {/* Steps */}
+      <div className="relative flex flex-col lg:flex-row items-center justify-center lg:gap-12 gap-8">
+        {steps.map((step, index) => (
+          <div
+            key={step.id}
+            className={`relative z-10 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-6 flex flex-col items-center text-center max-w-[250px]`}
+          >
+            {/* Icon inside gradient circle */}
             <div
-              key={step.id}
-              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-300"
+              className={`w-16 h-16 flex items-center justify-center rounded-full bg-gradient-to-r ${step.gradient} text-white mb-4 shadow-lg`}
             >
-              <div
-                className={`w-12 h-12 flex items-center justify-center rounded-lg bg-gradient-to-r ${step.gradient} text-white mb-4`}
-              >
-                {step.icon}
-              </div>
-              <h3 className="font-semibold text-lg mb-2">
-                {step.id}. {step.title}
-              </h3>
-              <p className="text-gray-600 text-sm">{step.desc}</p>
+              {step.icon}
             </div>
-          ))}
-        </div>
+
+            {/* Title */}
+            <h3 className="font-bold text-lg text-gray-900 mb-2">
+              {step.title}
+            </h3>
+
+            {/* Desc */}
+            <p className="text-gray-600 text-sm">{step.desc}</p>
+
+            {/* Step number badge */}
+            <span className="absolute -top-3 -right-3 bg-gray-900 text-white text-xs font-bold w-7 h-7 flex items-center justify-center rounded-full shadow-md">
+              {index + 1}
+            </span>
+          </div>
+        ))}
+
+        {/* Connector line */}
+        <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-[3px] bg-gradient-to-r from-pink-400 via-blue-400 to-purple-500 -z-0"></div>
       </div>
     </section>
   );
