@@ -87,7 +87,7 @@ const Banner = () => {
               duration={1000}
               fraction={0.5}
               className="sm:w-[200px] text-center w-[180px]  hover:translate-y-[5px] duration-300 transition-all text-black px-[20px] py-[10px] rounded-[5px] bg-[#8965e0] z-1 shadow-2xl"
-              direction="up"
+              direction="right"
             >
               <button>
                 <a
