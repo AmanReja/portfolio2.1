@@ -87,7 +87,7 @@ const Banner = () => {
               duration={1000}
               fraction={0.5}
               className="sm:w-[200px] text-center w-[180px]  hover:translate-y-[5px] duration-300 transition-all text-black px-[20px] py-[10px] rounded-[5px] bg-[#8965e0] z-1 shadow-2xl"
-              direction="right"
+              direction="down"
             >
               <button>
                 <a
@@ -104,7 +104,7 @@ const Banner = () => {
               delay={200}
               duration={1000}
               className="sm:w-[200px] text-center w-[180px]  hover:translate-y-[5px] duration-300 transition-all text-white px-[20px] py-[10px] rounded-[5px] bg-lime-400 z-1 shadow-2xl"
-              direction="down"
+              direction="right"
             >
               <a
                 href={Resume}
