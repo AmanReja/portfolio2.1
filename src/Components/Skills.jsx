@@ -53,40 +53,67 @@ function Skills() {
           const offset = circumference - (progress / 100) * circumference;
 
           return (
-            <div key={index} className="flex flex-col  gap-[80px] items-center">
-              <div className="relative w-[120px] h-[120px]">
+            <div
+              key={index}
+              className="flex flex-col items-center gap-6 bg-white/5 backdrop-blur-md p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
+            >
+              {/* Circular Progress */}
+              <div className="relative w-[140px] h-[140px]">
                 <svg className="w-full h-full transform -rotate-90">
+                  {/* Background circle */}
                   <circle
-                    cx="60"
-                    cy="60"
+                    cx="70"
+                    cy="70"
                     r={radius}
                     stroke="#e5e7eb"
                     strokeWidth={stroke}
                     fill="transparent"
                   />
+                  {/* Progress circle */}
                   <circle
-                    cx="60"
-                    cy="60"
+                    cx="70"
+                    cy="70"
                     r={radius}
-                    stroke={skill.color}
+                    stroke={`url(#gradient-${index})`}
                     strokeWidth={stroke}
                     fill="transparent"
                     strokeDasharray={circumference}
                     strokeDashoffset={offset}
                     strokeLinecap="round"
-                    className="transition-all duration-1000 ease-in-out"
+                    className="transition-all duration-1000 ease-in-out drop-shadow-md"
                   />
+                  {/* Gradient definition */}
+                  <defs>
+                    <linearGradient
+                      id={`gradient-${index}`}
+                      x1="0%"
+                      y1="0%"
+                      x2="100%"
+                      y2="0%"
+                    >
+                      <stop offset="0%" stopColor={skill.color} />
+                      <stop offset="100%" stopColor="#6366f1" />
+                    </linearGradient>
+                  </defs>
                 </svg>
-                <img
-                  src={skill.img}
-                  alt={skill.name}
-                  className="w-10 h-10 overflow-visible rounded-full absolute sm:top-[35px] top-[-38px] left-[40px] sm:left-[-40px] z-10"
-                />
-                <div className="absolute inset-0 flex items-center justify-center text-sm font-bold">
+
+                {/* Skill Icon */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <img
+                    src={skill.img}
+                    alt={skill.name}
+                    className="w-12 h-12 rounded-full shadow-md"
+                  />
+                </div>
+
+                {/* Progress Text */}
+                <div className="absolute inset-0 flex items-end justify-center  text-sm font-semibold  text-gray-800 pt-[10px] ">
                   {progress}%
                 </div>
               </div>
-              <p className="mt-2 relative  top-[-80px] font-semibold">
+
+              {/* Skill Name */}
+              <p className="mt-2 text-lg font-semibold tracking-wide text-gray-900 ">
                 {skill.name}
               </p>
             </div>
