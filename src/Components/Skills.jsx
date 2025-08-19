@@ -55,10 +55,10 @@ function Skills() {
           return (
             <div
               key={index}
-              className="flex flex-col items-center gap-6 bg-white/5 backdrop-blur-md p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
+              className="flex flex-col items-center gap-6   w-[140px] h-[250px] bg-white/5 backdrop-blur-md p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
             >
               {/* Circular Progress */}
-              <div className="relative w-[140px] h-[140px]">
+              <div className="relative w-[140px]  h-[140px]">
                 <svg className="w-full h-full transform -rotate-90">
                   {/* Background circle */}
                   <circle
@@ -102,7 +102,7 @@ function Skills() {
                   <img
                     src={skill.img}
                     alt={skill.name}
-                    className="w-12 h-12 rounded-full shadow-md"
+                    className="w-12 h-12  rounded-full shadow-md"
                   />
                 </div>
 

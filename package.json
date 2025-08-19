@@ -10,13 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.3",
+    "@react-three/fiber": "^9.3.0",
     "@tailwindcss/vite": "^4.1.10",
+    "lucide-react": "^0.540.0",
     "react": "^19.1.0",
     "react-awesome-reveal": "^4.3.1",
     "react-dom": "^19.1.0",
     "sweetalert2": "^11.22.0",
     "swiper": "^11.2.8",
-    "tailwindcss": "^4.1.10"
+    "tailwindcss": "^4.1.10",
+    "three": "^0.179.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
