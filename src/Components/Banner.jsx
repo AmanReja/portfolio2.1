@@ -73,7 +73,9 @@ const Banner = () => {
             duration={700}
             direction="up"
           >
-            <h1 className="text-black">Hello, My Name is Aman Reja</h1>
+            <h1 className="text-black sm:text-4xl text-[23px] relative sm:top-0 top-[30px]">
+              Hello, My Name is Aman Reja
+            </h1>
           </Fade>
 
           <p className="w-[350px] z-10 text-black font-thin">
