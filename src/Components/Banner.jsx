@@ -53,7 +53,7 @@ const Banner = () => {
               alt=""
             />
             <img
-              className=" floter sm:w-[100px] sm:h-[100px] relative md:left-[150px] w-[50px] h-[50px]"
+              className=" floter sm:w-[100px] sm:h-[100px] relative md:left-[150px] bottom-[50px] w-[50px] h-[50px]"
               src={Nodemon}
               alt=""
             />
