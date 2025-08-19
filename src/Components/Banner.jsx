@@ -48,7 +48,7 @@ const Banner = () => {
             duration={1000} // Animation duration
           >
             <img
-              className="floter sm:w-[120px] w-[80px] md:left-[300px] h-[80px] sm:h-[120px] relative bottom-[50px] left-[50px]"
+              className="floter sm:w-[120px] w-[80px] md:left-[300px] h-[80px] sm:h-[120px] relative bottom-[40px] left-[50px]"
               src={Figma}
               alt=""
             />
