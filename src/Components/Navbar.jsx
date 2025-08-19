@@ -4,7 +4,7 @@ import { React, useState, useContext } from "react";
 
 function Navbar({ themeHandel }) {
   // const value = useContext(Theme);
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const handelopen = () => {
     setOpen((prev) => !prev);
   };
