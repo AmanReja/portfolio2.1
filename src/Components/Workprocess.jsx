@@ -11,7 +11,7 @@ const steps = [
   {
     id: 2,
     title: "Backend Development",
-    desc: "Designing robust APIs and server logic using Node.js, Express, and secure authentication methods.",
+    desc: "Designing robust APIs and server logic using Node.js, Express, php and secure authentication methods.",
     icon: <Code className="w-6 h-6" />,
     gradient: "from-blue-500 to-indigo-400",
   },
