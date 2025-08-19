@@ -33,7 +33,7 @@ const steps = [
     id: 5,
     title: "App Development",
     desc: "Creating cross-platform mobile applications using React Native for both Android and iOS with smooth UI/UX.",
-    icon: <Smartphone className="w-6 h-6" />, // You can also use <Phone /> or <Tablet /> from lucide-react
+    icon: <Smartphone className="w-6 h-6" />,
     gradient: "from-orange-500 to-amber-400",
   },
 ];
@@ -51,36 +51,30 @@ export default function WorkProcess() {
         </p>
       </div>
 
-      {/* Steps */}
       <div className="relative flex flex-col lg:flex-row items-center justify-center lg:gap-12 gap-8">
         {steps.map((step, index) => (
           <div
             key={step.id}
             className={`relative z-10 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-6 flex flex-col items-center text-center max-w-[250px]`}
           >
-            {/* Icon inside gradient circle */}
             <div
               className={`w-16 h-16 flex items-center justify-center rounded-full bg-gradient-to-r ${step.gradient} text-white mb-4 shadow-lg`}
             >
               {step.icon}
             </div>
 
-            {/* Title */}
             <h3 className="font-bold text-lg text-gray-900 mb-2">
               {step.title}
             </h3>
 
-            {/* Desc */}
             <p className="text-gray-600 text-sm">{step.desc}</p>
 
-            {/* Step number badge */}
             <span className="absolute -top-3 -right-3 bg-gray-900 text-white text-xs font-bold w-7 h-7 flex items-center justify-center rounded-full shadow-md">
               {index + 1}
             </span>
           </div>
         ))}
 
-        {/* Connector line */}
         <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-[3px] bg-gradient-to-r from-pink-400 via-blue-400 to-purple-500 -z-0"></div>
       </div>
     </section>
