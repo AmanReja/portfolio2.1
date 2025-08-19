@@ -40,7 +40,7 @@ const steps = [
 
 export default function WorkProcess() {
   return (
-    <section className="py-20 px-6 lg:px-20 bg-white">
+    <section className="py-20 px-6 lg:px-20 bg-white mt-[80px]">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-extrabold text-gray-900 mb-4">
           🚀 Work Process
