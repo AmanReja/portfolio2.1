@@ -58,10 +58,8 @@ function Skills() {
               key={index}
               className="flex flex-col items-center gap-6   w-[140px] h-[250px] bg-white/5 backdrop-blur-md p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
             >
-              {/* Circular Progress */}
               <div className="relative w-[140px]  h-[140px]">
                 <svg className="w-full h-full transform -rotate-90">
-                  {/* Background circle */}
                   <circle
                     cx="70"
                     cy="70"
@@ -70,7 +68,7 @@ function Skills() {
                     strokeWidth={stroke}
                     fill="transparent"
                   />
-                  {/* Progress circle */}
+
                   <circle
                     cx="70"
                     cy="70"
@@ -83,7 +81,7 @@ function Skills() {
                     strokeLinecap="round"
                     className="transition-all duration-1000 ease-in-out drop-shadow-md"
                   />
-                  {/* Gradient definition */}
+
                   <defs>
                     <linearGradient
                       id={`gradient-${index}`}
@@ -98,7 +96,6 @@ function Skills() {
                   </defs>
                 </svg>
 
-                {/* Skill Icon */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <img
                     src={skill.img}
@@ -107,13 +104,11 @@ function Skills() {
                   />
                 </div>
 
-                {/* Progress Text */}
                 <div className="absolute inset-0 flex items-end justify-center  text-sm font-semibold  text-gray-800 pt-[10px] ">
                   {progress}%
                 </div>
               </div>
 
-              {/* Skill Name */}
               <p className="mt-2 text-lg font-semibold tracking-wide text-gray-900 ">
                 {skill.name}
               </p>

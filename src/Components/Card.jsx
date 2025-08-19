@@ -137,7 +137,6 @@ const Card = () => {
 
   return (
     <div id="projects" className="py-20 bg-white">
-      {/* Heading */}
       <div className="text-center mb-12">
         <h1 className="font-extrabold text-4xl md:text-5xl text-gray-900">
           🚀 My Projects
@@ -147,7 +146,6 @@ const Card = () => {
         </p>
       </div>
 
-      {/* Projects Grid */}
       <section
         id="Projects"
         className="w-full gap-10 sm:px-6 px-10 flex flex-wrap justify-center"
@@ -160,17 +158,14 @@ const Card = () => {
                      shadow-xl hover:scale-[1.03] transition-all duration-500
                      bg-white/10 backdrop-blur-md border border-white/20"
             >
-              {/* Background Image */}
               <img
                 src={item.img}
                 alt={item.name}
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
 
-              {/* Overlay Gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent"></div>
 
-              {/* Project Info */}
               <div className="z-10">
                 <h3 className="text-2xl font-bold text-white group-hover:text-purple-300 transition">
                   {item.name}
@@ -178,7 +173,6 @@ const Card = () => {
                 <p className="text-sm text-gray-300">{item.islive}</p>
               </div>
 
-              {/* Hover Buttons */}
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
                 <div className="flex gap-4">
                   <a

@@ -35,7 +35,6 @@ export default function WorkProcess() {
   return (
     <section className="py-16 px-6 lg:px-20 bg-white">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
-        {/* Left Side Text */}
         <div>
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Work Process
@@ -54,7 +53,6 @@ export default function WorkProcess() {
           </p>
         </div>
 
-        {/* Right Side Grid */}
         <div className="grid grid-cols-2 gap-6">
           {steps.map((step) => (
             <div
