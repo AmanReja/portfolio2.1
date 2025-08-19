@@ -45,7 +45,7 @@ const Swip = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center py-16 bg-white ">
+    <div className="flex justify-center items-center py-16 bg-white">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={30}
@@ -62,24 +62,36 @@ const Swip = () => {
         {cards.map((card, index) => (
           <SwiperSlide key={index}>
             <div
-              style={{ backgroundColor: `${card.color}` }}
-              className={`cursor-pointer shadow-2xl rounded-2xl p-6 h-full flex flex-col justify-between hover:shadow-xl transition-all duration-300`}
+              style={{
+                background: `linear-gradient(135deg, ${card.color}, #1e1e2f)`,
+              }}
+              className="cursor-pointer rounded-2xl p-6 h-full flex flex-col justify-between
+                     shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2
+                     backdrop-blur-md bg-opacity-80"
             >
-              <div className="flex min-h-[150px] flex-col items-center mb-4 gap-4">
-                <img
-                  src={card.image}
-                  alt={card.name}
-                  className="h-14 w-14 rounded-full object-cover"
-                />
-                <div>
-                  <h5 className="text-lg font-bold text-white">{card.name}</h5>
-                  <p className="text-xs text-white uppercase font-bold">
+              {/* Top Section */}
+              <div className="flex min-h-[150px] flex-col items-center mb-6 gap-4">
+                <div className="relative">
+                  <img
+                    src={card.image}
+                    alt={card.name}
+                    className="h-16 w-16 rounded-full object-cover ring-4 ring-white shadow-lg"
+                  />
+                  <span className="absolute bottom-0 right-0 h-3 w-3 rounded-full bg-green-400 ring-2 ring-white"></span>
+                </div>
+                <div className="text-center">
+                  <h5 className="text-xl font-bold text-white tracking-wide">
+                    {card.name}
+                  </h5>
+                  <p className="text-xs text-gray-200 uppercase font-semibold">
                     {card.profile}
                   </p>
                 </div>
               </div>
-              <p className="text-sm  leading-relaxed text-white">
-                {card.description}
+
+              {/* Description */}
+              <p className="text-sm text-gray-100 leading-relaxed italic">
+                "{card.description}"
               </p>
             </div>
           </SwiperSlide>

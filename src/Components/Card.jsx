@@ -136,34 +136,73 @@ const Card = () => {
   ];
 
   return (
-    <div id="projects">
-      <div className="text-center p-10">
-        <h1 className="font-bold text-4xl mb-4">My Projects</h1>
+    <div id="projects" className="py-20 bg-white">
+      {/* Heading */}
+      <div className="text-center mb-12">
+        <h1 className="font-extrabold text-4xl md:text-5xl text-gray-900">
+          🚀 My Projects
+        </h1>
+        <p className="text-gray-600 mt-3 text-lg max-w-2xl mx-auto">
+          A collection of some of my recent work in full-stack development.
+        </p>
       </div>
+
+      {/* Projects Grid */}
       <section
         id="Projects"
-        className="w-full gap-[50px] sm:px-[30px] px-[80px] flex-wrap flex flex-row justify-center"
+        className="w-full gap-10 sm:px-6 px-10 flex flex-wrap justify-center"
       >
-        {project.map((item) => (
-          <Fade direction={item.dir}>
-            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl sm:w-[400px] w-[350px] px-8 pb-8 pt-40 mt-24 shadow-lg hover:scale-105 transition-all duration-300">
+        {project.map((item, index) => (
+          <Fade direction={item.dir} key={index}>
+            <article
+              className="group relative isolate flex flex-col justify-end overflow-hidden 
+                     rounded-2xl sm:w-[380px] w-[320px] px-8 pb-10 pt-48 mt-10 
+                     shadow-xl hover:scale-[1.03] transition-all duration-500
+                     bg-white/10 backdrop-blur-md border border-white/20"
+            >
+              {/* Background Image */}
               <img
                 src={item.img}
                 alt={item.name}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
 
-              <a
-                className="z-10 text-2xl font-bold text-white hover:underline transition"
-                href={item.wlink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {item.name}
-              </a>
+              {/* Overlay Gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent"></div>
 
-              <div className="z-10 text-sm text-gray-300">{item.islive}</div>
+              {/* Project Info */}
+              <div className="z-10">
+                <h3 className="text-2xl font-bold text-white group-hover:text-purple-300 transition">
+                  {item.name}
+                </h3>
+                <p className="text-sm text-gray-300">{item.islive}</p>
+              </div>
+
+              {/* Hover Buttons */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                <div className="flex gap-4">
+                  <a
+                    href={item.wlink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-lg bg-purple-600 text-white text-sm font-semibold 
+                           hover:bg-purple-700 transition shadow-md"
+                  >
+                    View Live
+                  </a>
+                  {item.glink && (
+                    <a
+                      href={item.glink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 rounded-lg bg-gray-800 text-white text-sm font-semibold 
+                             hover:bg-gray-900 transition shadow-md"
+                    >
+                      GitHub
+                    </a>
+                  )}
+                </div>
+              </div>
             </article>
           </Fade>
         ))}

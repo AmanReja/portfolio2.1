@@ -38,10 +38,11 @@ function Skills() {
       onMouseLeave={() => setIsHovered(false)}
     >
       <p
-        style={{ fontFamily: "montserrat" }}
-        className="text-center text-4xl font-bold mb-12 uppercase"
+        className="text-center text-4xl md:text-5xl font-extrabold mb-12 uppercase 
+   bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 
+   text-transparent bg-clip-text drop-shadow-md tracking-wide"
       >
-        Skills
+        🚀 Skills ⚡
       </p>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-8 justify-items-center">
